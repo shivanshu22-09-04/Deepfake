@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeepShield AI - Deepfake Detection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CORRECT PATH -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h1>DeepShield AI</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#detect">Detect</a></li>
+        <li><a href="#faq">FAQ</a></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h2>Detect Deepfakes Instantly</h2>
+    <p>
+        DeepShield AI analyzes digital media using advanced AI detection techniques 
+        to protect you from fraud, misinformation, and identity manipulation.
+    </p>
+    <button class="btn" onclick="scrollToDetect()">Start Detection</button>
+</div>
+
+<section id="about">
+    <h2 class="section-title">What Are Deepfakes?</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>AI Face Swapping</h3>
+            <p>Deepfakes use neural networks to replace faces and manipulate video content.</p>
+        </div>
+        <div class="card">
+            <h3>Voice Cloning</h3>
+            <p>AI models replicate speech patterns to create fake but realistic audio.</p>
+        </div>
+        <div class="card">
+            <h3>Global Threat</h3>
+            <p>Deepfake scams are increasing across finance, politics, and social media.</p>
+        </div>
+    </div>
+</section>
+
+<section id="how">
+    <h2 class="section-title">How DeepShield AI Works</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Frame-Level Detection</h3>
+            <p>Detects unnatural blinking, lighting shifts, and pixel inconsistencies.</p>
+        </div>
+        <div class="card">
+            <h3>AI Pattern Recognition</h3>
+            <p>Analyzes deep neural signatures hidden in synthetic media.</p>
+        </div>
+        <div class="card">
+            <h3>Confidence Score</h3>
+            <p>Provides probability score showing authenticity likelihood.</p>
+        </div>
+    </div>
+</section>
+
+<section id="detect">
+    <h2 class="section-title">Try Detection Demo</h2>
+    <div class="detect-box">
+        <p>Upload a file for simulation</p>
+        <input type="file" id="fileInput">
+        <br>
+        <button class="btn" onclick="analyze()">Analyze Now</button>
+        <div id="result" class="result"></div>
+    </div>
+</section>
+
+<section id="faq">
+    <h2 class="section-title">FAQ</h2>
+    <div class="faq-item">
+        <h3>Is this real AI detection?</h3>
+        <p>This is a frontend demo simulation.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Is my file stored?</h3>
+        <p>No. This demo does not store any data.</p>
+    </div>
+</section>
+
+<footer>
+    ©️ 2026 DeepShield AI | Protecting Digital Truth
+</footer>
+
+<!-- CORRECT PATH -->
+<script src="script.js"></script>
+
+</body>
+</html>
